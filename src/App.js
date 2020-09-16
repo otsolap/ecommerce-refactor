@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
-import NavBar from './components/Layot/NavBar'
+import Navbar from './components/Layot/Navbar'
 import Header from './components/Layot/Header';
 import HomePage from './components/Pages/HomePage';
 import BasketPage from './components/Pages/BasketPage';
@@ -14,7 +14,7 @@ class App extends Component {
     return (
       <Router>
         <div className="App">
-          <NavBar />
+          <Navbar />
           <Header />
           <Switch>
             <Route exact path="/" component={HomePage} />

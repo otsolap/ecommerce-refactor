@@ -4,7 +4,12 @@ export default class NavBar extends Component {
     render() {
         return (
             <div>
-                This is a Navbar for navigation.
+                <div>Logo here</div>
+                <div>Men</div>
+                <div>Women</div>
+                <div>Templates</div>
+                <div>Search Bar</div>
+                <div>Cart</div>
             </div>
         )
     }

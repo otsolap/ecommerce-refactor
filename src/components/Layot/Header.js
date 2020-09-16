@@ -1,12 +1,52 @@
 import React, { Component } from 'react'
 
+// This was called Header in the original html.
 export default class Header extends Component {
     render() {
         return (
-            <div>
-                This is a Header for the Logo and other stuff.
-                Kinda weird the site has two navbar or header like elements.
+            <div id="top">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-lg-6 offer mb-3 mb-lg-0"><a href="#" className="btn btn-success btn-sm">Offer of the day</a><a href="#" className="ml-1">Get flat 35% off on orders over $50!</a></div>
+                        <div className="col-lg-6 text-center text-lg-right">
+                            <ul className="menu list-inline mb-0">
+                                <li className="list-inline-item"><a href="#" data-toggle="modal" data-target="#login-modal">Login</a></li>
+                                <li className="list-inline-item"><a href="#">Register</a></li>
+                                <li className="list-inline-item"><a href="#">Contact</a></li>
+                                <li className="list-inline-item"><a href="#">Recently viewed</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div id="login-modal" tabindex="-1" role="dialog" aria-labelledby="Login" aria-hidden="true" className="modal fade">
+                    <div className="modal-dialog modal-sm">
+                        <div className="modal-content">
+                            <div className="modal-header">
+                                <h5 className="modal-title">Customer login</h5>
+                                <button type="button" data-dismiss="modal" aria-label="Close" className="close"><span aria-hidden="true">×</span></button>
+                            </div>
+                            <div className="modal-body">
+                                <form action="customer-orders.html" method="post">
+                                    <form className="form-group">
+                                        <input id="email-modal" type="text" placeholder="email" className="form-control" />
+
+                                        <div className="form-group">
+                                            <input id="password-modal" type="password" placeholder="password" className="form-control" />
+                                        </div>
+                                        <p className="text-center">
+                                            <button className="btn btn-primary"><i className="fa fa-sign-in"></i> Log in</button>
+                                        </p>
+                                    </form>
+                                    <p className="text-center text-muted">Not registered yet?</p>
+                                    <p className="text-center text-muted"><a href="register.html"><strong>Register now</strong></a>! It is easy and done in 1 minute and gives you access to special discounts and much more!</p>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         )
     }
 }
+
+
