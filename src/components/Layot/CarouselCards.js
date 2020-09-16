@@ -3,7 +3,6 @@ import React, { Component } from 'react'
 export default class CarouselCards extends Component {
     render() {
         return (
-            <div>
                 <div>
                     <div id="hot">
                         <div className="box py-4">
@@ -21,11 +20,11 @@ export default class CarouselCards extends Component {
                                     <div className="product">
                                         <div className="flip-container">
                                             <div className="flipper">
-                                                <div className="front"><a href="detail.html"><img src="img/product1.jpg" alt="product" className="img-fluid"></a></div>
-                                                    <div className="back"><a href="detail.html"><img src="img/product1_2.jpg" alt="product" className="img-fluid"></a></div>
-                                                    </div>
+                                                <div className="front"><a href="detail.html"><img src="img/product1.jpg" alt="product" className="img-fluid"/>
+                                                    <div className="back">
+                                                        <a href="detail.html"><img src="img/product1_2.jpg" alt="product" className="img-fluid"/> </a>
                                                 </div>
-                                                <a href="detail.html" className="invisible"><img src="img/product1.jpg" alt="product" className="img-fluid"></a>
+                                                <a href="detail.html" className="invisible"><img src="img/product1.jpg" alt="product" className="img-fluid"/></a>
                                                     <div className="text">
                                                         <h3><a href="detail.html">Fur coat with very but very very long name</a></h3>
                                                         <p className="price"> $143.00 </p>
@@ -42,19 +41,20 @@ export default class CarouselCards extends Component {
                                                         <div className="theribbon">GIFT</div>
                                                         <div className="ribbon-background"></div>
                                                     </div>  
-                                                    </div>
+                                                    {/* Mulla ei ole mitään tietoa minkä asian tämä </a> closaa. */}
+                                                    </a>
                                             </div>
                                             <div className="item">
                                                 <div className="product">
                                                     <div className="flip-container">
                                                         <div className="flipper">
-                                                            <div className="front"><a href="detail.html"><img src="img/product2.jpg" alt="product" className="img-fluid"></a>
+                                                            <div className="front"><a href="detail.html"><img src="img/product2.jpg" alt="product" className="img-fluid"/></a>
                                                             </div>
-                                                                <div className="back"><a href="detail.html"><img src="img/product2_2.jpg" alt="product" className="img-fluid"></a>
+                                                                <div className="back"><a href="detail.html"><img src="img/product2_2.jpg" alt="product" className="img-fluid"/></a>
                                                                 </div>
                                                                 </div>
                                                             </div>
-                                                            <a href="detail.html" className="invisible"><img src="img/product2.jpg" alt="product" className="img-fluid"></a>
+                                                            <a href="detail.html" className="invisible"><img src="img/product2.jpg" alt="product" className="img-fluid"/></a>
                                                             </div>
                                                             <div className="text">
                                                                 <h3><a href="detail.html">White Blouse Armani</a></h3>
@@ -79,10 +79,10 @@ export default class CarouselCards extends Component {
                                                         <div className="product">
                                                             <div className="flip-container">
                                                                 <div className="flipper">
-                                                                    <div className="front"><a href="detail.html"><img src="img/product3.jpg" alt="product" className="img-fluid"></a></div>
-                                                                        <div className="back"><a href="detail.html"><img src="img/product3_2.jpg" alt="product" className="img-fluid"></a></div>
+                                                                    <div className="front"><a href="detail.html"><img src="img/product3.jpg" alt="product" className="img-fluid"/></a></div>
+                                                                        <div className="back"><a href="detail.html"><img src="img/product3_2.jpg" alt="product" className="img-fluid"/></a></div>
                                                                         </div>
-                                                                    </div><a href="detail.html" className="invisible"><img src="img/product3.jpg" alt="product" className="img-fluid"></a></div>
+                                                                    </div><a href="detail.html" className="invisible"><img src="img/product3.jpg" alt="product" className="img-fluid"/></a></div>
                                                                     <div className="text">
                                                                         <h3><a href="detail.html">Black Blouse Versace</a></h3>
                                                                         <p className="price">$143.00 </p>
@@ -93,10 +93,10 @@ export default class CarouselCards extends Component {
                                                                 <div className="product">
                                                                     <div className="flip-container">
                                                                         <div className="flipper">
-                                                                            <div className="front"><a href="detail.html"><img src="img/product3.jpg" alt="product" className="img-fluid"></a></div>
-                                                                                <div className="back"><a href="detail.html"><img src="img/product3_2.jpg" alt="product" className="img-fluid"></a></div>
+                                                                            <div className="front"><a href="detail.html"><img src="img/product3.jpg" alt="product" className="img-fluid"/></a></div>
+                                                                                <div className="back"><a href="detail.html"><img src="img/product3_2.jpg" alt="product" className="img-fluid"/></a></div>
                                                                                 </div>
-                                                                            </div><a href="detail.html" className="invisible"><img src="img/product3.jpg" alt="product" className="img-fluid"></a></div>
+                                                                            </div><a href="detail.html" className="invisible"><img src="img/product3.jpg" alt="product" className="img-fluid"/></a></div>
                                                                             <div className="text">
                                                                                 <h3><a href="detail.html">Black Blouse Versace</a></h3>
                                                                                 <p className="price"> $143.00 </p>
@@ -107,10 +107,10 @@ export default class CarouselCards extends Component {
                                                                         <div className="product">
                                                                             <div className="flip-container">
                                                                                 <div className="flipper">
-                                                                                    <div className="front"><a href="detail.html"><img src="img/product2.jpg" alt="product" className="img-fluid"></a></div>
-                                                                                        <div className="back"><a href="detail.html"><img src="img/product2_2.jpg" alt="product" className="img-fluid"></a></div>
+                                                                                    <div className="front"><a href="detail.html"><img src="img/product2.jpg" alt="product" className="img-fluid"/></a></div>
+                                                                                        <div className="back"><a href="detail.html"><img src="img/product2_2.jpg" alt="product" className="img-fluid"/></a></div>
                                                                                         </div>
-                                                                                    </div><a href="detail.html" className="invisible"><img src="img/product2.jpg" alt="product" className="img-fluid"></a>
+                                                                                    </div><a href="detail.html" className="invisible"><img src="img/product2.jpg" alt="product" className="img-fluid"/></a>
                                                                                         <div className="text">
                                                                                             <h3><a href="detail.html">White Blouse Versace</a></h3>
                                                                                             <p className="price">  $143.00 </p>
@@ -125,10 +125,10 @@ export default class CarouselCards extends Component {
                                                                                     <div className="product">
                                                                                         <div className="flip-container">
                                                                                             <div className="flipper">
-                                                                                                <div className="front"><a href="detail.html"><img src="img/product1.jpg" alt="product" className="img-fluid"></a></div>
-                                                                                                    <div className="back"><a href="detail.html"><img src="img/product1_2.jpg" alt="product" className="img-fluid"></a></div>
+                                                                                                <div className="front"><a href="detail.html"><img src="img/product1.jpg" alt="product" className="img-fluid"/></a></div>
+                                                                                                    <div className="back"><a href="detail.html"><img src="img/product1_2.jpg" alt="product" className="img-fluid"/></a></div>
                                                                                                     </div>
-                                                                                                </div><a href="detail.html" className="invisible"><img src="img/product1.jpg" alt="product" className="img-fluid"></a>
+                                                                                                </div><a href="detail.html" className="invisible"><img src="img/product1.jpg" alt="product" className="img-fluid"/></a>
                                                                                                     <div className="text">
                                                                                                         <h3><a href="detail.html">Fur coat</a></h3>
                                                                                                         <p className="price">
@@ -143,10 +143,10 @@ export default class CarouselCards extends Component {
                                                                                                 <div className="product">
                                                                                                     <div className="flip-container">
                                                                                                         <div className="flipper">
-                                                                                                            <div className="front"><a href="detail.html"><img src="img/product2.jpg" alt="product" className="img-fluid"></a></div>
-                                                                                                                <div className="back"><a href="detail.html"><img src="img/product2_2.jpg" alt="product" className="img-fluid"></a></div>
+                                                                                                            <div className="front"><a href="detail.html"><img src="img/product2.jpg" alt="product" className="img-fluid"/></a></div>
+                                                                                                                <div className="back"><a href="detail.html"><img src="img/product2_2.jpg" alt="product" className="img-fluid"/></a></div>
                                                                                                                 </div>
-                                                                                                            </div><a href="detail.html" className="invisible"><img src="img/product2.jpg" alt="product" className="img-fluid"></a>
+                                                                                                            </div><a href="detail.html" className="invisible"><img src="img/product2.jpg" alt="product" className="img-fluid"/></a>
                                                                                                                 <div className="text">
                                                                                                                     <h3><a href="detail.html">White Blouse Armani</a></h3>
                                                                                                                     <p className="price">
@@ -170,10 +170,10 @@ export default class CarouselCards extends Component {
                                                                                                             <div className="product">
                                                                                                                 <div className="flip-container">
                                                                                                                     <div className="flipper">
-                                                                                                                        <div className="front"><a href="detail.html"><img src="img/product3.jpg" alt="product" className="img-fluid"></a></div>
-                                                                                                                            <div className="back"><a href="detail.html"><img src="img/product3_2.jpg" alt="product" className="img-fluid"></a></div>
+                                                                                                                        <div className="front"><a href="detail.html"><img src="img/product3.jpg" alt="product" className="img-fluid"/></a></div>
+                                                                                                                            <div className="back"><a href="detail.html"><img src="img/product3_2.jpg" alt="product" className="img-fluid"/></a></div>
                                                                                                                             </div>
-                                                                                                                        </div><a href="detail.html" className="invisible"><img src="img/product3.jpg" alt="product" className="img-fluid"></a>
+                                                                                                                        </div><a href="detail.html" className="invisible"><img src="img/product3.jpg" alt="product" className="img-fluid"/></a>
                                                                                                                             <div className="text">
                                                                                                                                 <h3><a href="detail.html">Black Blouse Versace</a></h3>
                                                                                                                                 <p className="price">
