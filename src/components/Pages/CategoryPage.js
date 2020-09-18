@@ -1,10 +1,14 @@
 import React, { Component } from 'react'
+import Categories from '../Layot/Categories'
+import ProductList from '../Layot/ProductList'
+
 
 export default class CategoryPage extends Component {
     render() {
         return (
             <div>
-                This is where the products are categorised.
+                <Categories />
+                <ProductList />
             </div>
         )
     }

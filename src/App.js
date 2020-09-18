@@ -18,9 +18,9 @@ class App extends Component {
           <Header />
           <Switch>
             <Route exact path="/" component={HomePage} />
-            <Route path="/Categories" component={CategoryPage} />
-            <Route path="/Basket" component={BasketPage} />
-            <Route path="/Checkout" component={CheckoutPage} />
+            <Route path="/category" component={CategoryPage} />
+            <Route path="/basket" component={BasketPage} />
+            <Route path="/checkout" component={CheckoutPage} />
           </Switch>
           <Footer />
         </div>
